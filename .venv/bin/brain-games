@@ -1,0 +1,12 @@
+#!/home/rollguy/hexlet_study/python-project-lvl1/.venv/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'cheklinim-brain-games','console_scripts','brain-games'
+__requires__ = 'cheklinim-brain-games'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('cheklinim-brain-games', 'console_scripts', 'brain-games')()
+    )

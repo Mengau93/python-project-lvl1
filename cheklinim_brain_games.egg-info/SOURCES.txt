@@ -1,0 +1,8 @@
+brain_games/__init__.py
+brain_games/scripts/__init__.py
+brain_games/scripts/brain_games.py
+cheklinim_brain_games.egg-info/PKG-INFO
+cheklinim_brain_games.egg-info/SOURCES.txt
+cheklinim_brain_games.egg-info/dependency_links.txt
+cheklinim_brain_games.egg-info/entry_points.txt
+cheklinim_brain_games.egg-info/top_level.txt
