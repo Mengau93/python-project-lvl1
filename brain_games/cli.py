@@ -1,4 +1,4 @@
-"""Welcome the user."""
+"""Welcome the user"""
 import prompt
 
 
