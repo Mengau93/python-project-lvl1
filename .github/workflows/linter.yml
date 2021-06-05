@@ -8,5 +8,7 @@ on:
 jobs:
     build: ubuntu-latest
     steps:
-        run: make lint
+        -name: Starting linter
+        run:
+            make lint
 
