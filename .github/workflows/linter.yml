@@ -1,0 +1,12 @@
+name: my-linter-from-hexlet
+
+
+on:
+    push
+
+
+jobs:
+    build: ubuntu-latest
+    steps:
+        run: make lint
+
