@@ -16,5 +16,6 @@ jobs:
 
             - name: "Linter Start"
               run: |
+                  python3 -m pip install poetry
                   make install
                   make lint
