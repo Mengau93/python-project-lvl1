@@ -2,3 +2,5 @@
 [![Actions Status](https://github.com/cheklinim/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/cheklinim/python-project-lvl1/actions)
 
 "!https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability!":https://codeclimate.com/github/codeclimate/codeclimate/maintainability
+
+"https://github.com/cheklinim/python-project-lvl1/actions/workflows/My_Linter/badge.svg"
