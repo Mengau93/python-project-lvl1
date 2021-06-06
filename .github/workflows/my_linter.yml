@@ -1,0 +1,18 @@
+#--------------------------------------------
+#  Scripts for Linter start in GutHub  Actions
+#
+#  I think i studied it!!!
+#
+#  -------------------------------------------
+
+name: "My_Linter"
+on: push
+
+jobs:
+    start_lint:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v1
+
+            - name: "Linter Start"
+              run: make lint
