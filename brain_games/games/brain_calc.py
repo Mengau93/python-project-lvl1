@@ -15,7 +15,9 @@ def main():
         correct_ans = two_args_calc(data)
         print('Question: {0}{1}{2}'.format(*data))
         ans = prompt.string('Your answer: ')
-        if int(ans) == correct_ans:
+        if not ans.isdigit():
+            print('Incorrect answer!')
+        elif int(ans) == correct_ans:
             print('Correct!')
             correct_counter += 1
         else:
