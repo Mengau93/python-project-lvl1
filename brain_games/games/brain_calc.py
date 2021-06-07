@@ -7,7 +7,7 @@ from brain_games.scripts.calculations import randomization, two_args_calc
 def main():
     """Start the game."""
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('What is the result of the expression? ')
     summary_counter = 0
     correct_counter = 0
     while summary_counter < 3:
@@ -15,7 +15,7 @@ def main():
         correct_ans = two_args_calc(data)
         print('Question: {0}{1}{2}'.format(*data))
         ans = prompt.string('Your answer: ')
-        if not ans.isdigit():
+        if not ans[1:].isdigit() and ans[0] not in '+-*1234567890':
             print('Incorrect answer!')
         elif int(ans) == correct_ans:
             print('Correct!')
