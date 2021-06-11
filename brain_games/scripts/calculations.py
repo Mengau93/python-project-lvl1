@@ -58,3 +58,14 @@ def arythm_progression_generate():
         res.append(start)
         start += com_diff
     return res
+
+
+def is_prime(x):
+    """
+    Return True if x is Prime
+    and False if x is not Prime
+    """
+    for i in range(2, x):
+        if x % i == 0:
+            return False
+    return True
