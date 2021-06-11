@@ -41,3 +41,20 @@ def gcd(x, y):
 def two_random_nums():
     """Returns a tuple of two random numbers from 0 to 100"""
     return random.randint(0, 100), random.randint(0, 100)
+
+
+def arythm_progression_generate():
+    """
+    Returns a list of arythmectic progression
+    with random number of elements and random numbers.
+    Start number from 0 to 50.
+    Common Difference from 1 to 10.
+    """
+    start = random.randint(0, 50)
+    com_diff = random.randint(1, 10)
+    res = []
+    count = random.randint(5, 15)
+    for i in range(count):
+        res.append(start)
+        start += com_diff
+    return res
