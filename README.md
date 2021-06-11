@@ -10,3 +10,5 @@ https://asciinema.org/connect/ea3eca18-fdff-4699-9a82-c56dd9963b50
 https://asciinema.org/a/KWT5OjCpyGBFbQDPpkQzoKnFM
 
 https://asciinema.org/a/8OyRwCLNLMbHYP3PbODmed6Rc
+
+https://asciinema.org/a/9QhCxbqy6P1JDJ2ruWsxQYckC
