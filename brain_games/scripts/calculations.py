@@ -26,3 +26,18 @@ def two_args_calc(data):
         return data[0] * data[2]
     else:
         return 'Error!'
+
+
+def gcd(x, y):
+    """Returns a GCD of two numbers - x and y"""
+    while x * y != 0:
+        if x > y:
+            x %= y
+        else:
+            y %= x
+    return x + y
+
+
+def two_random_nums():
+    """Returns a tuple of two random numbers from 0 to 100"""
+    return random.randint(0, 100), random.randint(0, 100)
