@@ -28,7 +28,7 @@ def main():
             break
         summary_counter += 1
     if correct_answers == 3:
-        print('Congratulations, {0}'.format(name))
+        print('Congratulations, {0}!'.format(name))
 
 
 if __name__ == '__main__':
