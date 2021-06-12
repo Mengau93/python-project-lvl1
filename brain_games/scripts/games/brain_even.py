@@ -1,13 +1,12 @@
 """Start simple even-odd game."""
 import prompt
 import random
+from brain_games.scripts.user_welcome import welcome_user
 
 
 def main():
     """Start the game."""
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(name))
+    name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no"')
     summary_counter = 0
     correct_answers = 0
