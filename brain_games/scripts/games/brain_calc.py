@@ -20,7 +20,7 @@ def main():
     correct_counter = 0
     while summary_counter < 3:
         data, correct_ans = question_generate()
-        print('Question: {0}{1}{2}'.format(*data))
+        print('Question: {0} {1} {2}'.format(*data))
         ans = prompt.string('Your answer: ')
         if ans == correct_ans:
             correct_counter = print_correct(correct_counter)
